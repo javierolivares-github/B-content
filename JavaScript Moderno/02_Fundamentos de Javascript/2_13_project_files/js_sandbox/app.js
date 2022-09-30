@@ -1,6 +1,8 @@
+// SWITCH ----------------------------------------------
+
 const color = 'yellow';
 
-switch(color){
+switch (color) {
   case 'red':
     console.log('Color is red');
     break;
@@ -14,7 +16,7 @@ switch(color){
 
 let day;
 
-switch(new Date().getDay()){
+switch (new Date().getDay()) {
   case 0:
     day = 'Sunday';
     break;

@@ -1,52 +1,62 @@
-// var, let, const
+// VARIABLES -----------------------------------------------------------------------
+// Las variables nos sirven para almacenar información.
 
-// var name = 'John Doe';
-// console.log(name);
-// name = 'Steve Smith';
-// console.log(name);
+// VAR
+// var nombre = 'Javier Olivares';
+// console.log(nombre);
 
-// // Init var
-// var greeting;
-// console.log(greeting);
-// greeting = 'Hello';
-// console.log(greeting);
+// Declarar:
+// var mensaje;
+// console.log(mensaje);
 
-// // letters, numbers, _, $
-// // Can not start with number
+// Asignar:
+// mensaje = 'Hola';
+// console.log(mensaje);
 
-// // Multi word vars
-// var firstName = 'John'; // Camel case
-// var first_name = 'Sara'; // Underscore
-// var FirstName = 'Tom'; // Pascal case
-// var firstname;
+// Reasignar:
+// mensaje = 'Hola Mundo';
+// console.log(mensaje);
+
+// Redeclarar:
+// var mensaje = 'Hola mundo 2';
+
+// letras, números, _, $
+// No puede empezar con números
+
+// Nombres de variables de más de una palabra:
+// var nombreUsuario = 'Javier'; // Camel case
+// var nombre_usuario = 'Jane'; // Underscore
+// var NombreUsuario = 'Batman'; // Pascal case
+// var nombreusuario;
 
 // LET
-// let name;
-// name = 'John Doe';
-// console.log(name);
-// name = 'Steve Smith';
-// console.log(name);
+// let nombre;
+// nombre = 'Javier';
+// console.log(nombre);
+// Puede ser Reasignada
+// nombre = 'Jeniffer';
+// console.log(nombre);
 
 
 // CONST
-// const name = 'John';
-// console.log(name);
-// Can not reassign
-// name = 'Sara';
-// Have to assign a value
-// const greeting;
+// const nombre = 'Pablo';
+// console.log(nombre);
+// No puede ser Reasignada
+// nombre = 'Katterine';
+// Tiene que asignar un valor
+// const mensaje;
 
-const person = {
-  name: 'John',
-  age: 30
+const usuario = {
+  nombre: 'John',
+  edad: 30
 }
 
-person.name = 'Sara';
-person.age = 32;
+usuario.nombre = 'Sara';
+usuario.edad = 32;
 
-// console.log(person);
+// console.log(usuario);
 
-const numbers = [1,2,3,4,5];
-numbers.push(6);
+const numeros = [1, 2, 3, 4, 5];
+numeros.push(6);
 
-console.log(numbers);
+console.log(numeros);

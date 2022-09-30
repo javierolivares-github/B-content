@@ -1,39 +1,42 @@
-let val;
+// CONVERSIONES DE TIPOS --------------------------------------------------
 
-// Number to string
-val = String(555);
-val = String(4+4);
-// Bool to string
-val = String(true);
-// Date to string
-val = String(new Date());
-// Array to string
-val = String([1,2,3,4]);
+let valor;
+// Número a cadena
+valor = String(555);
+valor = String(4 + 4);
+// Booleano a cadena
+valor = String(true);
+// Fecha a cadena
+valor = String(new Date());
+// Arreglo a cadena
+valor = String([1, 2, 3, 4]);
 
 // toString()
-val = (5).toString();
-val = (true).toString();
+valor = (5).toString();
+valor = (true).toString();
 
-// String to number
-val = Number('5');
-val = Number(true);
-val = Number(false);
-val = Number(null);
-val = Number('hello');
-val = Number([1,2,3]);
+// Cadena a número
+valor = Number('5');
+valor = Number(true);
+valor = Number(false);
+valor = Number(null);
+valor = Number('hola');
+valor = Number([1, 2, 3]);
 
-val = parseInt('100.30');
-val = parseFloat('100.30');
+// parseInt: convierte una cadena en un número
+valor = parseInt('100.30');
+// parseFloat: convierte una cadena en un número decimal
+valor = parseFloat('100.30');
 
-// Output
-// console.log(val);
-// console.log(typeof val);
-// //console.log(val.length);
-// console.log(val.toFixed(2));
+// Salida
+// console.log(valor);
+// console.log(typeof valor);
+// //console.log(valor.length);
+// console.log(valor.toFixed(2));
 
-const val1 = String(5);
-const val2 = 6;
-const sum = Number(val1 + val2);
+const valor1 = String(5);
+const valor2 = 6;
+const sum = Number(valor1 + valor2);
 
 console.log(sum);
 console.log(typeof sum);

@@ -1,3 +1,8 @@
+// FUNCIONES ------------------------------------------------------------
+
+
+// OBJETOS --------------------------------------------------------------
+
 const person = {
   firstName: 'Steve',
   lastName: 'Smith',
@@ -8,7 +13,7 @@ const person = {
     city: 'Miami',
     state: 'FL'
   },
-  getBirthYear: function(){
+  getBirthYear: function () {
     return 2017 - this.age;
   }
 }
@@ -28,11 +33,11 @@ val = person.getBirthYear();
 console.log(val);
 
 const people = [
-  {name: 'John', age: 30},
-  {name: 'Mike', age: 23},
-  {name: 'Nancy', age: 40}
+  { name: 'John', age: 30 },
+  { name: 'Mike', age: 23 },
+  { name: 'Nancy', age: 40 }
 ];
 
-for(let i = 0; i < people.length; i++){
+for (let i = 0; i < people.length; i++) {
   console.log(people[i].name);
 }

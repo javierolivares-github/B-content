@@ -1,3 +1,6 @@
+// OBJETO VENTANA -----------------------------------------------------
+// OBJETO DOCUMENTO ---------------------------------------------------
+
 // WINDOW METHODS / OBJECTS / PROPERTIES
 
 // Alert

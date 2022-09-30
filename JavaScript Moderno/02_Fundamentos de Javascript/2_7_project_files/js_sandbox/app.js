@@ -1,61 +1,111 @@
-const firstName = 'William';
-const lastName = 'Johnson';
-const age = 36;
-const str = 'Hello there my name is Brad';
-const tags = 'web design,web development,programming';
+// CADENAS
 
-let val;
+// MÉTODOS Y PROPIEDADES GENERALES PARA CADENA ---------------------------------------------------
+// Los métodos nos permiten realizan acciones.
+// Las propiedades nos permiten obtener información.
 
-val = firstName + lastName;
+// length
+// slice(start, end)
+// substring(start, end)
+// substr(start, length)
+// replace()
+// replace() /i
+// replace() /g
+// toUpperCase()
+// toLowerCase()
+// concat();
+// trim();
+// propery access [];
+// charAt();
 
-// Concatenation
-val = firstName + ' ' + lastName;
 
-// Append
-val = 'Brad ';
-val += 'Traversy';
+// MÉTODOS PARA BUSQUEDA DE CADENA ---------------------------------------------------------------
+// indexOf();
+// lastIndexOf();
+// search();
+// match(regexp);
+// includes(searchvalue)
+// startsWith(searchvalue, start)
+// endsWith(searchvalue, length)
 
-val = 'Hello, my name is ' + firstName + ' and I am ' + age;
 
-// Escaping
-val =  'That\'s awesome, I can\'t wait';
+// PLANTILLAS LITERALES -------------------------------------------------------------------------
+// Sintaxis Back-tics
+// Permite comillas
+// Permite cadenas multilínea
+// Permite interpolación de cadenas
+// Permite sustitución de variables
+// Permite plantillas de HTML
+
+
+// MÉTODOS Y PROPIEDADES GENERALES PARA NÚMEROS -------------------------------------------------
+// toString()
+// toExponential()
+// toFixed()
+// toPrecision()
+// valueOf()
+// Number()
+// parseInt()
+// parseFloat()
+// MAX_VALUE
+// MIN_VALUE
+// NaN
+
+
+const nombre = 'Jane';
+const apellido = 'Doe';
+const edad = 26;
+const mensaje = 'Bienvenido(a)';
+const topicos = 'Diseño UI/UX, Programación Front-End, Programación Back-End';
+
+let valor;
+
+valor = nombre + apellido;
+
+// Concatenar cadenas
+valor = nombre + ' ' + apellido;
+
+// Anexar cadenas
+valor = 'Javier ';
+valor += 'Olivares';
+
+valor = 'Hola, mi nombre es ' + nombre + ' y tengo ' + edad + ' años';
 
 // Length
-val = firstName.length;
+valor = nombre.length;
 
 // concat()
-val = firstName.concat(' ', lastName);
+valor = nombre.concat(' ', apellido);
 
-// Change case
-val = firstName.toUpperCase();
-val = firstName.toLowerCase();
+// toUpperCase() - toLowerCase()
+valor = nombre.toUpperCase();
+valor = nombre.toLowerCase();
 
-val = firstName[2];
+valor = nombre[2];
 
 // indexOf()
-val = firstName.indexOf('l');
-val = firstName.lastIndexOf('l');
+valor = nombre.indexOf('l');
+valor = nombre.lastIndexOf('l');
 
 // charAt()
-val = firstName.charAt('2');
+valor = nombre.charAt('2');
 // Get last char
-val = firstName.charAt(firstName.length - 1);
+valor = nombre.charAt(nombre.length - 1);
 
 // substring()
-val = firstName.substring(0, 4);
+valor = nombre.substring(0, 4);
 
 // slice()
-val = firstName.slice(0,4);
-val = firstName.slice(-3);
+valor = nombre.slice(0, 4);
+valor = nombre.slice(-3);
 
 // split()
-val = str.split(' ');
-val = tags.split(',');
+// valor = str.split(' ');
+// valor = tags.split(',');
 
 // replace()
-val = str.replace('Brad', 'Jack');
+// valor = str.replace('Brad', 'Jack');
 
 // includes()
-val = str.includes('foo');
-
-console.log(val);
+// valor = str.includes('foo');
+console.log(valor);
